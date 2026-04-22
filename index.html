@@ -329,8 +329,8 @@
     and mark tasks as completed using JavaScript and localStorage.
   </p>
   <div class="project-links">
-    <a href="#" class="btn live">Live Demo</a>
-    <a href="#" class="btn github">Source Code</a>
+    <a href="https://snecks12.github.io/To-do-list/" class="btn live">Live Demo</a>
+    <a href="https://github.com/Snecks12/To-do-list" class="btn github">Source Code</a>
   </div>
   </div>
 
@@ -343,11 +343,22 @@
         tasks using HTML, CSS, JavaScript and localStorage.
       </p>
       <div class="project-links">
-        <a href="https://snecks12.github.io/TaskManager/" target="_blank" class="btn live">Live Demo</a>
+        <a href="https://snecks12.github.io/taskmanager/" target="_blank" class="btn live">Live Demo</a>
         <a href="https://github.com/Snecks12/TaskManager" target="_blank" class="btn github">Source Code</a>
       </div>
     </div>
 
+    <!-- Project 4 -->
+    <div class="project-card">
+      <h3 class="project-name">E-Commerce</h3>
+      <p class="project-desc">
+        A E-commerce website with a server using node in runtime and mongoDB for database.
+        With authentication login.
+      </p>
+      <div class="project-links">
+        <a id = "not" href="#"  class="btn live">Live Demo</a>
+        <a href="https://github.com/Snecks12/Ecommerce-Project" target="_blank" class="btn github">Source Code</a>
+      </div>
 </div>
 </div>
 
@@ -423,6 +434,13 @@
     <script src="./js/script.js"></script>
     <script src="./js/mail.js"></script>
     <script src="./js/toast.js"></script>
+    <script>
+      const link = document.getElementById("not");
+      link.addEventListener('click', function (event){
+        event.preventDefault();
+        alert("This project is still on going viewing will be available soon.")
+      })
+    </script>
   </body>
 </html>
 
